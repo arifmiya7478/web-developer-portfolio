@@ -1,0 +1,82 @@
+/*  */
+* {
+    margin: 0px;
+    padding: 0px;
+} 
+/* shared styles */
+body {
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Open Sans' , sans-serif;
+}
+/* prim style */
+.text-prim {
+    color: #fd6e0a;
+}
+.btn-prem {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 35px;
+    font-size: 20px;
+    background: #fd6e0a;
+    /* width: 111px; */
+    font-weight: 700;
+}
+/* nav styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #FFF8F3; */
+    height: 100px;
+    /* margin: 0px 100px 0px 145px; */
+    padding: 0px 100px 0px 150px;
+}
+body header {
+    background-color: #fff8f3;
+    /* margin: 0px 100px 0px 145px; */
+
+}
+.nav-title {
+    color:black;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 800;
+    margin: 0;
+    padding: 11px;
+}
+/* nav > h4 > span {
+    color: #FD;
+} */
+nav > ul {
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    
+
+}
+nav ul li {
+    /* text-align: center; */
+    /* margin-right: 50px; */
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+/* cover area */
+.cover {
+    display: flex;
+    align-items: center;
+}
+.cover-text {
+    /* display: flex; */
+    margin-left: 161px;
+}
+.hardy {
+    width: 486px;
+}
+header .cover > button {
+    margin-top: 15px;
+}

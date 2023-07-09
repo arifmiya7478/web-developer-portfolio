@@ -33,6 +33,16 @@ body {
     /* width: 111px; */
     font-weight: 700;
 }
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.section-description {
+    text-align: center;
+    
+}
 /* nav styles */
 
 nav {
@@ -108,4 +118,12 @@ nav a {
     justify-content: space-around;
     margin: 15px 0px;
     font-size: initial;
+}
+/* main section style */
+/* about section */
+
+.about{
+    margin: 130px 0px;
+    max-height: 550px;
+    background-color: #fff8f3;
 }

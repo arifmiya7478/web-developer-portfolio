@@ -2,6 +2,17 @@
 * {
     margin: 0px;
     padding: 0px;
+}
+
+h4.cover-title {
+    font-size: 25px;
+}
+
+h4.cover-title {}
+
+h1.cover-titletwo {
+    font-weight: 600;
+    font-size: 45px;
 } 
 /* shared styles */
 body {
@@ -69,14 +80,32 @@ nav a {
 .cover {
     display: flex;
     align-items: center;
+    background: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 680px;
+    /* height:100vh; */
+    justify-content: space-between;
 }
 .cover-text {
     /* display: flex; */
     margin-left: 161px;
+    max-width: 500px;
+    
 }
 .hardy {
-    width: 486px;
+    width: 360px;
+    margin-right: 55px;
 }
-header .cover > button {
+/* .description {
+    margin: 15px 0px;
+    font-size: initial;
+} */
+/* header .cover > button {
     margin-top: 15px;
+} */
+.description {
+    justify-content: space-around;
+    margin: 15px 0px;
+    font-size: initial;
 }
